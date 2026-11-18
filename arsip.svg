@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" font-family="'Segoe UI',Arial,sans-serif">
+  <defs>
+    <linearGradient id="bgA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBFAF7"/>
+      <stop offset="1" stop-color="#F1EFE8"/>
+    </linearGradient>
+    <linearGradient id="redA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E5322A"/>
+      <stop offset="1" stop-color="#B81F19"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bgA)"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="300" height="1000" fill="#16140F"/>
+  <text x="44" y="78" fill="#FBFAF7" font-size="24" font-weight="700">E-<tspan fill="#E5322A">ARSIP</tspan></text>
+  <text x="44" y="104" fill="#5C5A54" font-size="13" letter-spacing="2">KEJAKSAAN SUKOHARJO</text>
+
+  <rect x="24" y="150" width="252" height="46" rx="10" fill="url(#redA)"/>
+  <rect x="46" y="166" width="14" height="14" rx="2" fill="#fff"/>
+  <text x="74" y="179" fill="#fff" font-size="16" font-weight="600">Beranda</text>
+
+  <text x="74" y="239" fill="#cfcdc5" font-size="16">Dokumen Masuk</text>
+  <rect x="46" y="226" width="14" height="14" rx="2" fill="#7d7b73"/>
+  <text x="74" y="299" fill="#cfcdc5" font-size="16">Dokumen Keluar</text>
+  <rect x="46" y="286" width="14" height="14" rx="2" fill="#7d7b73"/>
+  <text x="74" y="359" fill="#cfcdc5" font-size="16">Kategori Perkara</text>
+  <rect x="46" y="346" width="14" height="14" rx="2" fill="#7d7b73"/>
+  <text x="74" y="419" fill="#cfcdc5" font-size="16">Klasifikasi Arsip</text>
+  <rect x="46" y="406" width="14" height="14" rx="2" fill="#7d7b73"/>
+  <text x="74" y="479" fill="#cfcdc5" font-size="16">Pengguna &amp; Hak Akses</text>
+  <rect x="46" y="466" width="14" height="14" rx="2" fill="#7d7b73"/>
+
+  <!-- Topbar -->
+  <text x="344" y="78" fill="#16140F" font-size="34" font-weight="800">Sistem Pengarsipan Digital</text>
+  <text x="344" y="108" fill="#5C5A54" font-size="15">Manajemen dokumen kantor kejaksaan — aman &amp; terklasifikasi</text>
+  <rect x="1180" y="56" width="320" height="44" rx="22" fill="#FBFAF7" stroke="#D8D6CE"/>
+  <circle cx="1208" cy="78" r="8" fill="none" stroke="#5C5A54" stroke-width="2"/>
+  <line x1="1214" y1="84" x2="1220" y2="90" stroke="#5C5A54" stroke-width="2"/>
+  <text x="1232" y="84" fill="#9b9990" font-size="15">Cari nomor / perihal dokumen…</text>
+
+  <!-- Stat cards -->
+  <rect x="344" y="160" width="290" height="150" rx="16" fill="#16140F"/>
+  <text x="372" y="206" fill="#cfcdc5" font-size="14" letter-spacing="1">TOTAL ARSIP</text>
+  <text x="372" y="262" fill="#fff" font-size="46" font-weight="800">4.812</text>
+
+  <rect x="660" y="160" width="290" height="150" rx="16" fill="#FBFAF7" stroke="#D8D6CE"/>
+  <text x="688" y="206" fill="#5C5A54" font-size="14" letter-spacing="1">DOKUMEN MASUK</text>
+  <text x="688" y="262" fill="#E5322A" font-size="46" font-weight="800">128</text>
+
+  <rect x="976" y="160" width="290" height="150" rx="16" fill="#FBFAF7" stroke="#D8D6CE"/>
+  <text x="1004" y="206" fill="#5C5A54" font-size="14" letter-spacing="1">DOKUMEN KELUAR</text>
+  <text x="1004" y="262" fill="#16140F" font-size="46" font-weight="800">96</text>
+
+  <rect x="1292" y="160" width="280" height="150" rx="16" fill="#FBFAF7" stroke="#D8D6CE"/>
+  <text x="1320" y="206" fill="#5C5A54" font-size="14" letter-spacing="1">KATEGORI</text>
+  <text x="1320" y="262" fill="#16140F" font-size="46" font-weight="800">12</text>
+
+  <!-- Document table -->
+  <rect x="344" y="340" width="1228" height="608" rx="16" fill="#FBFAF7" stroke="#D8D6CE"/>
+  <text x="376" y="388" fill="#16140F" font-size="22" font-weight="700">Arsip Dokumen Terbaru</text>
+  <rect x="1420" y="362" width="130" height="40" rx="10" fill="url(#redA)"/>
+  <text x="1485" y="387" fill="#fff" font-size="15" font-weight="600" text-anchor="middle">+ Tambah</text>
+
+  <!-- table header -->
+  <rect x="376" y="414" width="1164" height="44" rx="8" fill="#F1EFE8"/>
+  <g font-size="14" fill="#5C5A54" font-weight="600" letter-spacing="1">
+    <text x="396" y="442">NO. DOKUMEN</text>
+    <text x="640" y="442">PERIHAL</text>
+    <text x="1120" y="442">KATEGORI</text>
+    <text x="1360" y="442">STATUS</text>
+  </g>
+
+  <!-- rows -->
+  <g font-size="15" fill="#16140F">
+    <text x="396" y="500">B-1287/Q.3.16/2025</text>
+    <text x="640" y="500">Surat Perintah Penyidikan</text>
+    <text x="1120" y="500" fill="#5C5A54">Pidana Umum</text>
+    <rect x="1360" y="484" width="110" height="26" rx="13" fill="#dff0e0"/><text x="1415" y="502" fill="#1f7a2e" text-anchor="middle" font-size="13">ARSIP</text>
+
+    <line x1="376" y1="524" x2="1540" y2="524" stroke="#EFEDE6"/>
+    <text x="396" y="560">B-1290/Q.3.16/2025</text>
+    <text x="640" y="560">Berkas Perkara Tindak Pidana Korupsi</text>
+    <text x="1120" y="560" fill="#5C5A54">Pidsus</text>
+    <rect x="1360" y="544" width="110" height="26" rx="13" fill="#fff3da"/><text x="1415" y="562" fill="#a9791b" text-anchor="middle" font-size="13">PROSES</text>
+
+    <line x1="376" y1="584" x2="1540" y2="584" stroke="#EFEDE6"/>
+    <text x="396" y="620">B-1295/Q.3.16/2025</text>
+    <text x="640" y="620">Surat Tuntutan Penuntut Umum</text>
+    <text x="1120" y="620" fill="#5C5A54">Pidana Umum</text>
+    <rect x="1360" y="604" width="110" height="26" rx="13" fill="#dff0e0"/><text x="1415" y="622" fill="#1f7a2e" text-anchor="middle" font-size="13">ARSIP</text>
+
+    <line x1="376" y1="644" x2="1540" y2="644" stroke="#EFEDE6"/>
+    <text x="396" y="680">B-1301/Q.3.16/2025</text>
+    <text x="640" y="680">Surat Keterangan Penahanan</text>
+    <text x="1120" y="680" fill="#5C5A54">Datun</text>
+    <rect x="1360" y="664" width="110" height="26" rx="13" fill="#dff0e0"/><text x="1415" y="682" fill="#1f7a2e" text-anchor="middle" font-size="13">ARSIP</text>
+
+    <line x1="376" y1="704" x2="1540" y2="704" stroke="#EFEDE6"/>
+    <text x="396" y="740">B-1308/Q.3.16/2025</text>
+    <text x="640" y="740">Disposisi Kepala Kejaksaan Negeri</text>
+    <text x="1120" y="740" fill="#5C5A54">Intelijen</text>
+    <rect x="1360" y="724" width="110" height="26" rx="13" fill="#fff3da"/><text x="1415" y="742" fill="#a9791b" text-anchor="middle" font-size="13">PROSES</text>
+
+    <line x1="376" y1="764" x2="1540" y2="764" stroke="#EFEDE6"/>
+    <text x="396" y="800">B-1312/Q.3.16/2025</text>
+    <text x="640" y="800">Laporan Hasil Penyelidikan</text>
+    <text x="1120" y="800" fill="#5C5A54">Pidsus</text>
+    <rect x="1360" y="784" width="110" height="26" rx="13" fill="#dff0e0"/><text x="1415" y="802" fill="#1f7a2e" text-anchor="middle" font-size="13">ARSIP</text>
+  </g>
+
+  <!-- pagination -->
+  <text x="396" y="888" fill="#5C5A54" font-size="14">Menampilkan 1–6 dari 4.812 dokumen</text>
+  <rect x="1380" y="868" width="36" height="32" rx="8" fill="#F1EFE8"/><text x="1398" y="890" fill="#5C5A54" text-anchor="middle" font-size="15">‹</text>
+  <rect x="1424" y="868" width="36" height="32" rx="8" fill="url(#redA)"/><text x="1442" y="890" fill="#fff" text-anchor="middle" font-size="15">1</text>
+  <rect x="1468" y="868" width="36" height="32" rx="8" fill="#F1EFE8"/><text x="1486" y="890" fill="#5C5A54" text-anchor="middle" font-size="15">2</text>
+  <rect x="1512" y="868" width="36" height="32" rx="8" fill="#F1EFE8"/><text x="1530" y="890" fill="#5C5A54" text-anchor="middle" font-size="15">›</text>
+</svg>
